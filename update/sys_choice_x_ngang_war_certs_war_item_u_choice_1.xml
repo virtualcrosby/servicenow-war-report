@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_choice_1" table="x_ngang_war_certs_war_item" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>S</label>
+            <language>en</language>
+            <name>x_ngang_war_certs_war_item</name>
+            <sequence>0</sequence>
+            <sys_created_by>brian.crosby</sys_created_by>
+            <sys_created_on>2016-06-27 19:38:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>98bfd4194f142a00e51c9a211310c7aa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>brian.crosby</sys_updated_by>
+            <sys_updated_on>2016-06-27 19:38:06</sys_updated_on>
+            <value>S</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TS</label>
+            <language>en</language>
+            <name>x_ngang_war_certs_war_item</name>
+            <sequence>1</sequence>
+            <sys_created_by>brian.crosby</sys_created_by>
+            <sys_created_on>2016-06-27 19:38:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d4bfd4194f142a00e51c9a211310c7ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>brian.crosby</sys_updated_by>
+            <sys_updated_on>2016-06-27 19:38:06</sys_updated_on>
+            <value>TS</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SCI</label>
+            <language>en</language>
+            <name>x_ngang_war_certs_war_item</name>
+            <sequence>2</sequence>
+            <sys_created_by>brian.crosby</sys_created_by>
+            <sys_created_on>2016-06-27 19:38:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>90bfd4194f142a00e51c9a211310c7ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>brian.crosby</sys_updated_by>
+            <sys_updated_on>2016-06-27 19:38:06</sys_updated_on>
+            <value>SCI</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_choice_1</element>
+            <name>x_ngang_war_certs_war_item</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>brian.crosby</sys_created_by>
+            <sys_created_on>2016-06-27 19:38:06</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>14bfd4194f142a00e51c9a211310c7ab</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>u_choice_1</sys_name>
+            <sys_package display_value="WAR-CERTS" source="x_ngang_war_certs">93e129b013371200b9c4b8b12244b042</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="WAR-CERTS">93e129b013371200b9c4b8b12244b042</sys_scope>
+            <sys_update_name>sys_choice_x_ngang_war_certs_war_item_u_choice_1</sys_update_name>
+            <sys_updated_by>brian.crosby</sys_updated_by>
+            <sys_updated_on>2016-06-27 19:38:06</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

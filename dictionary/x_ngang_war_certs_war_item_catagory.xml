@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="WAR Item Category" max_length="40" name="x_ngang_war_certs_war_item_catagory" type="collection">
+        <element display="true" label="Category" max_length="50" name="catagory" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update node_type="sys_portal_page" unload_date="2016-09-26 18:25:38">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout display_value="layout_2_across_knowledge">46978421370031002d2440ed9dbe5db7</layout>
+        <order/>
+        <read_roles/>
+        <roles/>
+        <selectable>true</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>christopher.campbell</sys_created_by>
+        <sys_created_on>2016-06-13 17:36:00</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3e6d3ba8138ce200b9c4b8b12244b010</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>WAR Dashboard</sys_name>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="WAR-CERTS">93e129b013371200b9c4b8b12244b042</sys_scope>
+        <sys_update_name>sys_portal_page_3e6d3ba8138ce200b9c4b8b12244b010</sys_update_name>
+        <sys_updated_by>christopher.campbell</sys_updated_by>
+        <sys_updated_on>2016-06-16 15:28:17</sys_updated_on>
+        <title>WAR Dashboard</title>
+        <user/>
+        <view>war_dashboard</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone2</dropzone>
+                <offset>0</offset>
+                <page display_value="WAR Dashboard">3e6d3ba8138ce200b9c4b8b12244b010</page>
+                <summary/>
+                <sys_created_by>jessica.bannasch</sys_created_by>
+                <sys_created_on>2016-06-23 15:45:15</sys_created_on>
+                <sys_id>1604c3fb1380e600b9c4b8b12244b0b2</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>jessica.bannasch</sys_updated_by>
+                <sys_updated_on>2016-06-23 15:45:15</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2016-06-23 08:45:15">1604c3fb1380e600b9c4b8b12244b0b2</portal_section>
+                        <sys_created_by>jessica.bannasch</sys_created_by>
+                        <sys_created_on>2016-06-23 15:45:15</sys_created_on>
+                        <sys_id>1604c3fb1380e600b9c4b8b12244b0b3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>jessica.bannasch</sys_updated_by>
+                        <sys_updated_on>2016-06-23 15:45:15</sys_updated_on>
+                        <value>WAR Submitting Offices by Week</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2016-06-23 08:45:15">1604c3fb1380e600b9c4b8b12244b0b2</portal_section>
+                        <sys_created_by>jessica.bannasch</sys_created_by>
+                        <sys_created_on>2016-06-23 15:45:15</sys_created_on>
+                        <sys_id>1a04c3fb1380e600b9c4b8b12244b0b2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>jessica.bannasch</sys_updated_by>
+                        <sys_updated_on>2016-06-23 15:45:15</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2016-06-23 08:45:15">1604c3fb1380e600b9c4b8b12244b0b2</portal_section>
+                        <sys_created_by>jessica.bannasch</sys_created_by>
+                        <sys_created_on>2016-06-23 15:45:15</sys_created_on>
+                        <sys_id>5204c3fb1380e600b9c4b8b12244b0b3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>jessica.bannasch</sys_updated_by>
+                        <sys_updated_on>2016-06-23 15:45:15</sys_updated_on>
+                        <value>pivot</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2016-06-23 08:45:15">1604c3fb1380e600b9c4b8b12244b0b2</portal_section>
+                        <sys_created_by>jessica.bannasch</sys_created_by>
+                        <sys_created_on>2016-06-23 15:45:15</sys_created_on>
+                        <sys_id>5604c3fb1380e600b9c4b8b12244b0b2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>jessica.bannasch</sys_updated_by>
+                        <sys_updated_on>2016-06-23 15:45:15</sys_updated_on>
+                        <value>732c36a113cc2600b9c4b8b12244b044</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2016-06-23 08:45:15">1604c3fb1380e600b9c4b8b12244b0b2</portal_section>
+                        <sys_created_by>jessica.bannasch</sys_created_by>
+                        <sys_created_on>2016-06-23 15:45:15</sys_created_on>
+                        <sys_id>9e04c3fb1380e600b9c4b8b12244b0b2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>jessica.bannasch</sys_updated_by>
+                        <sys_updated_on>2016-06-23 15:45:15</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2016-06-23 08:45:15">1604c3fb1380e600b9c4b8b12244b0b2</portal_section>
+                        <sys_created_by>jessica.bannasch</sys_created_by>
+                        <sys_created_on>2016-06-23 15:45:15</sys_created_on>
+                        <sys_id>d604c3fb1380e600b9c4b8b12244b0b3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>jessica.bannasch</sys_updated_by>
+                        <sys_updated_on>2016-06-23 15:45:15</sys_updated_on>
+                        <value>3e6d3ba8138ce200b9c4b8b12244b010</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2016-06-23 08:45:15">1604c3fb1380e600b9c4b8b12244b0b2</portal_section>
+                        <sys_created_by>jessica.bannasch</sys_created_by>
+                        <sys_created_on>2016-06-23 15:45:15</sys_created_on>
+                        <sys_id>da04c3fb1380e600b9c4b8b12244b0b2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>jessica.bannasch</sys_updated_by>
+                        <sys_updated_on>2016-06-23 15:45:15</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone1</dropzone>
+                <offset>1</offset>
+                <page display_value="WAR Dashboard">3e6d3ba8138ce200b9c4b8b12244b010</page>
+                <summary/>
+                <sys_created_by>jessica.bannasch</sys_created_by>
+                <sys_created_on>2016-06-23 15:45:15</sys_created_on>
+                <sys_id>1e04c3fb1380e600b9c4b8b12244b0b0</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>jessica.bannasch</sys_updated_by>
+                <sys_updated_on>2016-06-23 15:45:15</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2016-06-23 08:45:15">1e04c3fb1380e600b9c4b8b12244b0b0</portal_section>
+                        <sys_created_by>jessica.bannasch</sys_created_by>
+                        <sys_created_on>2016-06-23 15:45:15</sys_created_on>
+                        <sys_id>1204c3fb1380e600b9c4b8b12244b0b1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>jessica.bannasch</sys_updated_by>
+                        <sys_updated_on>2016-06-23 15:45:15</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2016-06-23 08:45:15">1e04c3fb1380e600b9c4b8b12244b0b0</portal_section>
+                        <sys_created_by>jessica.bannasch</sys_created_by>
+                        <sys_created_on>2016-06-23 15:45:15</sys_created_on>
+                        <sys_id>1e04c3fb1380e600b9c4b8b12244b0b1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>jessica.bannasch</sys_updated_by>
+                        <sys_updated_on>2016-06-23 15:45:15</sys_updated_on>
+                        <value>WAR Items by Week</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2016-06-23 08:45:15">1e04c3fb1380e600b9c4b8b12244b0b0</portal_section>
+                        <sys_created_by>jessica.bannasch</sys_created_by>
+                        <sys_created_on>2016-06-23 15:45:15</sys_created_on>
+                        <sys_id>5a04c3fb1380e600b9c4b8b12244b0b1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>jessica.bannasch</sys_updated_by>
+                        <sys_updated_on>2016-06-23 15:45:15</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2016-06-23 08:45:15">1e04c3fb1380e600b9c4b8b12244b0b0</portal_section>
+                        <sys_created_by>jessica.bannasch</sys_created_by>
+                        <sys_created_on>2016-06-23 15:45:15</sys_created_on>
+                        <sys_id>5e04c3fb1380e600b9c4b8b12244b0b0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>jessica.bannasch</sys_updated_by>
+                        <sys_updated_on>2016-06-23 15:45:15</sys_updated_on>
+                        <value>b290d88d13802600b9c4b8b12244b0ec</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2016-06-23 08:45:15">1e04c3fb1380e600b9c4b8b12244b0b0</portal_section>
+                        <sys_created_by>jessica.bannasch</sys_created_by>
+                        <sys_created_on>2016-06-23 15:45:15</sys_created_on>
+                        <sys_id>9604c3fb1380e600b9c4b8b12244b0b1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>jessica.bannasch</sys_updated_by>
+                        <sys_updated_on>2016-06-23 15:45:15</sys_updated_on>
+                        <value>bar</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2016-06-23 08:45:15">1e04c3fb1380e600b9c4b8b12244b0b0</portal_section>
+                        <sys_created_by>jessica.bannasch</sys_created_by>
+                        <sys_created_on>2016-06-23 15:45:15</sys_created_on>
+                        <sys_id>d204c3fb1380e600b9c4b8b12244b0b1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>jessica.bannasch</sys_updated_by>
+                        <sys_updated_on>2016-06-23 15:45:15</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2016-06-23 08:45:15">1e04c3fb1380e600b9c4b8b12244b0b0</portal_section>
+                        <sys_created_by>jessica.bannasch</sys_created_by>
+                        <sys_created_on>2016-06-23 15:45:15</sys_created_on>
+                        <sys_id>de04c3fb1380e600b9c4b8b12244b0b1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>jessica.bannasch</sys_updated_by>
+                        <sys_updated_on>2016-06-23 15:45:15</sys_updated_on>
+                        <value>3e6d3ba8138ce200b9c4b8b12244b010</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone2</dropzone>
+                <offset>1</offset>
+                <page display_value="WAR Dashboard">3e6d3ba8138ce200b9c4b8b12244b010</page>
+                <summary/>
+                <sys_created_by>jessica.bannasch</sys_created_by>
+                <sys_created_on>2016-06-23 15:45:15</sys_created_on>
+                <sys_id>1e04c3fb1380e600b9c4b8b12244b0b3</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>jessica.bannasch</sys_updated_by>
+                <sys_updated_on>2016-06-23 15:45:15</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2016-06-23 08:45:15">1e04c3fb1380e600b9c4b8b12244b0b3</portal_section>
+                        <sys_created_by>jessica.bannasch</sys_created_by>
+                        <sys_created_on>2016-06-23 15:45:15</sys_created_on>
+                        <sys_id>1204c3fb1380e600b9c4b8b12244b0b4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>jessica.bannasch</sys_updated_by>
+                        <sys_updated_on>2016-06-23 15:45:15</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2016-06-23 08:45:15">1e04c3fb1380e600b9c4b8b12244b0b3</portal_section>
+                        <sys_created_by>jessica.bannasch</sys_created_by>
+                        <sys_created_on>2016-06-23 15:45:15</sys_created_on>
+                        <sys_id>5a04c3fb1380e600b9c4b8b12244b0b4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>jessica.bannasch</sys_updated_by>
+                        <sys_updated_on>2016-06-23 15:45:15</sys_updated_on>
+                        <value>WAR Items by Category</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2016-06-23 08:45:15">1e04c3fb1380e600b9c4b8b12244b0b3</portal_section>
+                        <sys_created_by>jessica.bannasch</sys_created_by>
+                        <sys_created_on>2016-06-23 15:45:15</sys_created_on>
+                        <sys_id>5e04c3fb1380e600b9c4b8b12244b0b3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>jessica.bannasch</sys_updated_by>
+                        <sys_updated_on>2016-06-23 15:45:15</sys_updated_on>
+                        <value>e142d0cd13802600b9c4b8b12244b004</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2016-06-23 08:45:15">1e04c3fb1380e600b9c4b8b12244b0b3</portal_section>
+                        <sys_created_by>jessica.bannasch</sys_created_by>
+                        <sys_created_on>2016-06-23 15:45:15</sys_created_on>
+                        <sys_id>9604c3fb1380e600b9c4b8b12244b0b4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>jessica.bannasch</sys_updated_by>
+                        <sys_updated_on>2016-06-23 15:45:15</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2016-06-23 08:45:15">1e04c3fb1380e600b9c4b8b12244b0b3</portal_section>
+                        <sys_created_by>jessica.bannasch</sys_created_by>
+                        <sys_created_on>2016-06-23 15:45:15</sys_created_on>
+                        <sys_id>d204c3fb1380e600b9c4b8b12244b0b4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>jessica.bannasch</sys_updated_by>
+                        <sys_updated_on>2016-06-23 15:45:15</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone1</dropzone>
+                <offset>0</offset>
+                <page display_value="WAR Dashboard">3e6d3ba8138ce200b9c4b8b12244b010</page>
+                <summary/>
+                <sys_created_by>jessica.bannasch</sys_created_by>
+                <sys_created_on>2016-06-23 15:45:15</sys_created_on>
+                <sys_id>5204c3fb1380e600b9c4b8b12244b0af</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>jessica.bannasch</sys_updated_by>
+                <sys_updated_on>2016-06-23 15:45:15</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2016-06-23 08:45:15">5204c3fb1380e600b9c4b8b12244b0af</portal_section>
+                        <sys_created_by>jessica.bannasch</sys_created_by>
+                        <sys_created_on>2016-06-23 15:45:15</sys_created_on>
+                        <sys_id>1604c3fb1380e600b9c4b8b12244b0b0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>jessica.bannasch</sys_updated_by>
+                        <sys_updated_on>2016-06-23 15:45:15</sys_updated_on>
+                        <value>WAR Reports by Submitted Office</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2016-06-23 08:45:15">5204c3fb1380e600b9c4b8b12244b0af</portal_section>
+                        <sys_created_by>jessica.bannasch</sys_created_by>
+                        <sys_created_on>2016-06-23 15:45:15</sys_created_on>
+                        <sys_id>1a04c3fb1380e600b9c4b8b12244b0af</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>jessica.bannasch</sys_updated_by>
+                        <sys_updated_on>2016-06-23 15:45:15</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2016-06-23 08:45:15">5204c3fb1380e600b9c4b8b12244b0af</portal_section>
+                        <sys_created_by>jessica.bannasch</sys_created_by>
+                        <sys_created_on>2016-06-23 15:45:15</sys_created_on>
+                        <sys_id>5204c3fb1380e600b9c4b8b12244b0b0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>jessica.bannasch</sys_updated_by>
+                        <sys_updated_on>2016-06-23 15:45:15</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2016-06-23 08:45:15">5204c3fb1380e600b9c4b8b12244b0af</portal_section>
+                        <sys_created_by>jessica.bannasch</sys_created_by>
+                        <sys_created_on>2016-06-23 15:45:15</sys_created_on>
+                        <sys_id>5604c3fb1380e600b9c4b8b12244b0af</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>jessica.bannasch</sys_updated_by>
+                        <sys_updated_on>2016-06-23 15:45:15</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2016-06-23 08:45:15">5204c3fb1380e600b9c4b8b12244b0af</portal_section>
+                        <sys_created_by>jessica.bannasch</sys_created_by>
+                        <sys_created_on>2016-06-23 15:45:14</sys_created_on>
+                        <sys_id>9204c3fb1380e600b9c4b8b12244b0af</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>jessica.bannasch</sys_updated_by>
+                        <sys_updated_on>2016-06-23 15:45:14</sys_updated_on>
+                        <value>8cf3da1113882600b9c4b8b12244b0a9</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2016-06-23 08:45:15">5204c3fb1380e600b9c4b8b12244b0af</portal_section>
+                        <sys_created_by>jessica.bannasch</sys_created_by>
+                        <sys_created_on>2016-06-23 15:45:15</sys_created_on>
+                        <sys_id>9e04c3fb1380e600b9c4b8b12244b0af</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>jessica.bannasch</sys_updated_by>
+                        <sys_updated_on>2016-06-23 15:45:15</sys_updated_on>
+                        <value>pie</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2016-06-23 08:45:15">5204c3fb1380e600b9c4b8b12244b0af</portal_section>
+                        <sys_created_by>jessica.bannasch</sys_created_by>
+                        <sys_created_on>2016-06-23 15:45:15</sys_created_on>
+                        <sys_id>d604c3fb1380e600b9c4b8b12244b0b0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>jessica.bannasch</sys_updated_by>
+                        <sys_updated_on>2016-06-23 15:45:15</sys_updated_on>
+                        <value>3e6d3ba8138ce200b9c4b8b12244b010</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_publish</name>
+                        <portal_section display_value="Created 2016-06-23 08:45:15">5204c3fb1380e600b9c4b8b12244b0af</portal_section>
+                        <sys_created_by>jessica.bannasch</sys_created_by>
+                        <sys_created_on>2016-06-23 15:45:15</sys_created_on>
+                        <sys_id>da04c3fb1380e600b9c4b8b12244b0af</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>jessica.bannasch</sys_updated_by>
+                        <sys_updated_on>2016-06-23 15:45:15</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone999</dropzone>
+                <offset>0</offset>
+                <page display_value="WAR Dashboard">3e6d3ba8138ce200b9c4b8b12244b010</page>
+                <summary/>
+                <sys_created_by>jessica.bannasch</sys_created_by>
+                <sys_created_on>2016-06-23 15:45:15</sys_created_on>
+                <sys_id>9e04c3fb1380e600b9c4b8b12244b0b4</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>jessica.bannasch</sys_updated_by>
+                <sys_updated_on>2016-06-23 15:45:15</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 2016-06-23 08:45:15">9e04c3fb1380e600b9c4b8b12244b0b4</portal_section>
+                        <sys_created_by>jessica.bannasch</sys_created_by>
+                        <sys_created_on>2016-06-23 15:45:15</sys_created_on>
+                        <sys_id>1204c3fb1380e600b9c4b8b12244b0b7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>jessica.bannasch</sys_updated_by>
+                        <sys_updated_on>2016-06-23 15:45:15</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2016-06-23 08:45:15">9e04c3fb1380e600b9c4b8b12244b0b4</portal_section>
+                        <sys_created_by>jessica.bannasch</sys_created_by>
+                        <sys_created_on>2016-06-23 15:45:15</sys_created_on>
+                        <sys_id>1604c3fb1380e600b9c4b8b12244b0b6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>jessica.bannasch</sys_updated_by>
+                        <sys_updated_on>2016-06-23 15:45:15</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_size</name>
+                        <portal_section display_value="Created 2016-06-23 08:45:15">9e04c3fb1380e600b9c4b8b12244b0b4</portal_section>
+                        <sys_created_by>jessica.bannasch</sys_created_by>
+                        <sys_created_on>2016-06-23 15:45:15</sys_created_on>
+                        <sys_id>1a04c3fb1380e600b9c4b8b12244b0b5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>jessica.bannasch</sys_updated_by>
+                        <sys_updated_on>2016-06-23 15:45:15</sys_updated_on>
+                        <value>10pt</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2016-06-23 08:45:15">9e04c3fb1380e600b9c4b8b12244b0b4</portal_section>
+                        <sys_created_by>jessica.bannasch</sys_created_by>
+                        <sys_created_on>2016-06-23 15:45:15</sys_created_on>
+                        <sys_id>1e04c3fb1380e600b9c4b8b12244b0b7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>jessica.bannasch</sys_updated_by>
+                        <sys_updated_on>2016-06-23 15:45:15</sys_updated_on>
+                        <value>059e303a13739200b9c4b8b12244b054</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2016-06-23 08:45:15">9e04c3fb1380e600b9c4b8b12244b0b4</portal_section>
+                        <sys_created_by>jessica.bannasch</sys_created_by>
+                        <sys_created_on>2016-06-23 15:45:15</sys_created_on>
+                        <sys_id>5204c3fb1380e600b9c4b8b12244b0b6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>jessica.bannasch</sys_updated_by>
+                        <sys_updated_on>2016-06-23 15:45:15</sys_updated_on>
+                        <value>list</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 2016-06-23 08:45:15">9e04c3fb1380e600b9c4b8b12244b0b4</portal_section>
+                        <sys_created_by>jessica.bannasch</sys_created_by>
+                        <sys_created_on>2016-06-23 15:45:15</sys_created_on>
+                        <sys_id>5604c3fb1380e600b9c4b8b12244b0b5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>jessica.bannasch</sys_updated_by>
+                        <sys_updated_on>2016-06-23 15:45:15</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>widget_height</name>
+                        <portal_section display_value="Created 2016-06-23 08:45:15">9e04c3fb1380e600b9c4b8b12244b0b4</portal_section>
+                        <sys_created_by>jessica.bannasch</sys_created_by>
+                        <sys_created_on>2016-06-23 15:45:15</sys_created_on>
+                        <sys_id>5a04c3fb1380e600b9c4b8b12244b0b7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>jessica.bannasch</sys_updated_by>
+                        <sys_updated_on>2016-06-23 15:45:15</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2016-06-23 08:45:15">9e04c3fb1380e600b9c4b8b12244b0b4</portal_section>
+                        <sys_created_by>jessica.bannasch</sys_created_by>
+                        <sys_created_on>2016-06-23 15:45:15</sys_created_on>
+                        <sys_id>5e04c3fb1380e600b9c4b8b12244b0b6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>jessica.bannasch</sys_updated_by>
+                        <sys_updated_on>2016-06-23 15:45:15</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2016-06-23 08:45:15">9e04c3fb1380e600b9c4b8b12244b0b4</portal_section>
+                        <sys_created_by>jessica.bannasch</sys_created_by>
+                        <sys_created_on>2016-06-23 15:45:15</sys_created_on>
+                        <sys_id>9204c3fb1380e600b9c4b8b12244b0b5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>jessica.bannasch</sys_updated_by>
+                        <sys_updated_on>2016-06-23 15:45:15</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 2016-06-23 08:45:15">9e04c3fb1380e600b9c4b8b12244b0b4</portal_section>
+                        <sys_created_by>jessica.bannasch</sys_created_by>
+                        <sys_created_on>2016-06-23 15:45:15</sys_created_on>
+                        <sys_id>9604c3fb1380e600b9c4b8b12244b0b7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>jessica.bannasch</sys_updated_by>
+                        <sys_updated_on>2016-06-23 15:45:15</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2016-06-23 08:45:15">9e04c3fb1380e600b9c4b8b12244b0b4</portal_section>
+                        <sys_created_by>jessica.bannasch</sys_created_by>
+                        <sys_created_on>2016-06-23 15:45:15</sys_created_on>
+                        <sys_id>9a04c3fb1380e600b9c4b8b12244b0b6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>jessica.bannasch</sys_updated_by>
+                        <sys_updated_on>2016-06-23 15:45:15</sys_updated_on>
+                        <value>102cff68138ce200b9c4b8b12244b0a1</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 2016-06-23 08:45:15">9e04c3fb1380e600b9c4b8b12244b0b4</portal_section>
+                        <sys_created_by>jessica.bannasch</sys_created_by>
+                        <sys_created_on>2016-06-23 15:45:15</sys_created_on>
+                        <sys_id>9e04c3fb1380e600b9c4b8b12244b0b5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>jessica.bannasch</sys_updated_by>
+                        <sys_updated_on>2016-06-23 15:45:15</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 2016-06-23 08:45:15">9e04c3fb1380e600b9c4b8b12244b0b4</portal_section>
+                        <sys_created_by>jessica.bannasch</sys_created_by>
+                        <sys_created_on>2016-06-23 15:45:15</sys_created_on>
+                        <sys_id>d204c3fb1380e600b9c4b8b12244b0b7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>jessica.bannasch</sys_updated_by>
+                        <sys_updated_on>2016-06-23 15:45:15</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2016-06-23 08:45:15">9e04c3fb1380e600b9c4b8b12244b0b4</portal_section>
+                        <sys_created_by>jessica.bannasch</sys_created_by>
+                        <sys_created_on>2016-06-23 15:45:15</sys_created_on>
+                        <sys_id>d604c3fb1380e600b9c4b8b12244b0b6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>jessica.bannasch</sys_updated_by>
+                        <sys_updated_on>2016-06-23 15:45:15</sys_updated_on>
+                        <value>WAR Items</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 2016-06-23 08:45:15">9e04c3fb1380e600b9c4b8b12244b0b4</portal_section>
+                        <sys_created_by>jessica.bannasch</sys_created_by>
+                        <sys_created_on>2016-06-23 15:45:15</sys_created_on>
+                        <sys_id>da04c3fb1380e600b9c4b8b12244b0b5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>jessica.bannasch</sys_updated_by>
+                        <sys_updated_on>2016-06-23 15:45:15</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 2016-06-23 08:45:15">9e04c3fb1380e600b9c4b8b12244b0b4</portal_section>
+                        <sys_created_by>jessica.bannasch</sys_created_by>
+                        <sys_created_on>2016-06-23 15:45:15</sys_created_on>
+                        <sys_id>de04c3fb1380e600b9c4b8b12244b0b4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>jessica.bannasch</sys_updated_by>
+                        <sys_updated_on>2016-06-23 15:45:15</sys_updated_on>
+                        <value>left</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>

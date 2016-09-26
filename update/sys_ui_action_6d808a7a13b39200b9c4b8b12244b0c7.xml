@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>new</action_name>
+        <active>true</active>
+        <client>true</client>
+        <comments>Promote selected WAR item(s) to be included in your WAR.</comments>
+        <condition/>
+        <form_action>false</form_action>
+        <form_button>false</form_button>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <hint>Select WAR Items to be included in new WAR</hint>
+        <list_action>true</list_action>
+        <list_banner_button>true</list_banner_button>
+        <list_button>true</list_button>
+        <list_choice>true</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <name>Create WAR</name>
+        <onclick>copyToNewWAR()</onclick>
+        <order>100</order>
+        <script><![CDATA[function copyToNewWAR(){ // this is function called on the "onClick" field
+if(confirm(getMessage("Click OK to promote selected WAR item(s) to be included in your WAR.  Click Cancel to stay on the form."))){
+	// run Server Action
+	
+	var warItemSysIDs = g_list.getChecked();
+	
+	if(warItemSysIDs) {
+		//alert("got sys_id's : " + warItemSysIDs);
+		//This is what does not work...It won't insert a new WAR. But ineed the warItemSysIDs in order to do what i need. So how i do i pass the warItemSysIDs to the server side (processWAR) below that does work...
+		// 		var counter = 0;
+		
+		// 		var war = new GlideRecord("x_ngang_war_certs_war");
+		// 		var warSysID = war.insert();
+		
+		// 		var warItems = new GlideRecord('x_ngang_war_certs_war_item');
+		// 		warItems.addQuery('sys_id', 'IN', warItemSysIDs);
+		// 		warItems.query();
+		
+		// 		while (warItems.next()) {
+			// 			counter++;
+			// 			warItems.war = warSysID;
+			// 			warItems.insert();
+			// 		}
+			
+			//alert("PreAjax");
+			var ga = new GlideAjax('AjaxWARProcessor');
+			ga.addParam('sysparm_name','copyWarItems');
+			ga.addParam('sysparm_waritems_list', warItemSysIDs);
+			//ga.addParam('sysparm_war_office_stage', '2');
+			ga.getXML(ajaxResponse);
+			//alert("PostAjax");
+			gsftSubmit(null, g_form.getFormElement(), 'new'); // this refers to the "Action name"
+		}
+		else {
+			alert("Please select at least one WAR Item.");
+			return false;
+		}
+	}
+	else{
+		return false; // cancel action if confirm response is false/cancel
+	}
+}
+
+
+//function ajaxResponse(serverResponse) {
+	//alert("AjaxResponse")
+//	var answer = serverResponse.responseXML.documentElement.getAttribute("answer");
+function ajaxResponse(response) {
+	var answer = response.responseXML.documentElement.getAttribute("answer");
+	g_form.addInfoMessage(answer); //JSON String
+	
+	answer = answer.evalJSON(); //Transform the JSON string to an object
+	g_form.addInfoMessage(answer);
+}
+
+
+//Code that runs without 'onclick'
+if(typeof window == 'undefined')
+	processWAR(); // call Server code
+
+
+//Server-side
+function processWAR(){
+	
+	// This part does work, but i have no way of getting what items are selected from the client side...
+	/*
+	var war = new GlideRecord("x_ngang_war_certs_war");
+	var warSysID = war.insert();
+	
+	var warItems = new GlideRecord('x_ngang_war_certs_war_item');
+	warItems.addQuery('sys_id', 'IN', warItemSysIDs);
+	warItems.query();
+	
+	while (warItems.next()) {
+		//counter++;
+		warItems.war = warSysID;
+		warItems.insert();
+	}
+ 	*/
+	//gs.addInfoMessage("WAR " + war.number + " created");
+	//action.setRedirectURL(war);
+	action.setReturnURL(current);
+	//action.setRedirectURL(current);
+}]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>brian.crosby</sys_created_by>
+        <sys_created_on>2016-06-07 22:05:11</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6d808a7a13b39200b9c4b8b12244b0c7</sys_id>
+        <sys_mod_count>43</sys_mod_count>
+        <sys_name>Create WAR</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="WAR-CERTS" source="x_ngang_war_certs">93e129b013371200b9c4b8b12244b042</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="WAR-CERTS">93e129b013371200b9c4b8b12244b042</sys_scope>
+        <sys_update_name>sys_ui_action_6d808a7a13b39200b9c4b8b12244b0c7</sys_update_name>
+        <sys_updated_by>brian.crosby</sys_updated_by>
+        <sys_updated_on>2016-06-26 21:36:11</sys_updated_on>
+        <table>x_ngang_war_certs_war_item</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

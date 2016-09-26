@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="metric_definition">
+    <metric_definition action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <field>status</field>
+        <name>WAR Item Status Duration</name>
+        <number>MTRC0010003</number>
+        <order>100</order>
+        <script/>
+        <sys_class_name>metric_definition</sys_class_name>
+        <sys_created_by>christopher.campbell</sys_created_by>
+        <sys_created_on>2016-06-08 14:18:04</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>6a102d8f13779200b9c4b8b12244b083</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>WAR Item Status Duration</sys_name>
+        <sys_package display_value="WAR-CERTS" source="x_ngang_war_certs">93e129b013371200b9c4b8b12244b042</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="WAR-CERTS">93e129b013371200b9c4b8b12244b042</sys_scope>
+        <sys_update_name>metric_definition_6a102d8f13779200b9c4b8b12244b083</sys_update_name>
+        <sys_updated_by>christopher.campbell</sys_updated_by>
+        <sys_updated_on>2016-06-08 14:18:04</sys_updated_on>
+        <table>x_ngang_war_certs_war_item</table>
+        <timeline>true</timeline>
+        <type>field_value_duration</type>
+    </metric_definition>
+</record_update>

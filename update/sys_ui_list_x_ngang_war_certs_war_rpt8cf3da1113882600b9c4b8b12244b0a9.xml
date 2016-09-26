@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_ngang_war_certs_war" version="2" view="RPT8cf3da1113882600b9c4b8b12244b0a9">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_ngang_war_certs_war" element="NULL" name="x_ngang_war_certs_war" parent="NULL" relationship="NULL" sys_domain="global" view="04f3da1113882600b9c4b8b12244b0aa">48f3da1113882600b9c4b8b12244b0aa</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>christopher.campbell</sys_created_by>
+            <sys_created_on>2016-06-15 17:50:17</sys_created_on>
+            <sys_id>4cf3da1113882600b9c4b8b12244b0aa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>christopher.campbell</sys_updated_by>
+            <sys_updated_on>2016-06-15 17:50:17</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>description</element>
+            <list_id display_value="x_ngang_war_certs_war" element="NULL" name="x_ngang_war_certs_war" parent="NULL" relationship="NULL" sys_domain="global" view="04f3da1113882600b9c4b8b12244b0aa">48f3da1113882600b9c4b8b12244b0aa</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>christopher.campbell</sys_created_by>
+            <sys_created_on>2016-06-15 17:50:17</sys_created_on>
+            <sys_id>ccf3da1113882600b9c4b8b12244b0aa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>christopher.campbell</sys_updated_by>
+            <sys_updated_on>2016-06-15 17:50:17</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>status</element>
+            <list_id display_value="x_ngang_war_certs_war" element="NULL" name="x_ngang_war_certs_war" parent="NULL" relationship="NULL" sys_domain="global" view="04f3da1113882600b9c4b8b12244b0aa">48f3da1113882600b9c4b8b12244b0aa</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>christopher.campbell</sys_created_by>
+            <sys_created_on>2016-06-15 17:50:17</sys_created_on>
+            <sys_id>40f3da1113882600b9c4b8b12244b0ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>christopher.campbell</sys_updated_by>
+            <sys_updated_on>2016-06-15 17:50:17</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>submitting_office</element>
+            <list_id display_value="x_ngang_war_certs_war" element="NULL" name="x_ngang_war_certs_war" parent="NULL" relationship="NULL" sys_domain="global" view="04f3da1113882600b9c4b8b12244b0aa">48f3da1113882600b9c4b8b12244b0aa</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>christopher.campbell</sys_created_by>
+            <sys_created_on>2016-06-15 17:50:17</sys_created_on>
+            <sys_id>c0f3da1113882600b9c4b8b12244b0ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>christopher.campbell</sys_updated_by>
+            <sys_updated_on>2016-06-15 17:50:17</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>target_office</element>
+            <list_id display_value="x_ngang_war_certs_war" element="NULL" name="x_ngang_war_certs_war" parent="NULL" relationship="NULL" sys_domain="global" view="04f3da1113882600b9c4b8b12244b0aa">48f3da1113882600b9c4b8b12244b0aa</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>christopher.campbell</sys_created_by>
+            <sys_created_on>2016-06-15 17:50:17</sys_created_on>
+            <sys_id>44f3da1113882600b9c4b8b12244b0ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>christopher.campbell</sys_updated_by>
+            <sys_updated_on>2016-06-15 17:50:17</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>parent</element>
+            <list_id display_value="x_ngang_war_certs_war" element="NULL" name="x_ngang_war_certs_war" parent="NULL" relationship="NULL" sys_domain="global" view="04f3da1113882600b9c4b8b12244b0aa">48f3da1113882600b9c4b8b12244b0aa</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>christopher.campbell</sys_created_by>
+            <sys_created_on>2016-06-15 17:50:17</sys_created_on>
+            <sys_id>c4f3da1113882600b9c4b8b12244b0ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>christopher.campbell</sys_updated_by>
+            <sys_updated_on>2016-06-15 17:50:17</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_ngang_war_certs_war</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>christopher.campbell</sys_created_by>
+            <sys_created_on>2016-06-15 17:50:17</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>48f3da1113882600b9c4b8b12244b0aa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_ngang_war_certs_war</sys_name>
+            <sys_package display_value="WAR-CERTS" source="x_ngang_war_certs">93e129b013371200b9c4b8b12244b042</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="WAR-CERTS">93e129b013371200b9c4b8b12244b042</sys_scope>
+            <sys_update_name>sys_ui_list_x_ngang_war_certs_war_RPT8cf3da1113882600b9c4b8b12244b0a9</sys_update_name>
+            <sys_updated_by>christopher.campbell</sys_updated_by>
+            <sys_updated_on>2016-06-15 17:50:17</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rpt8cf3da1113882600b9c4b8b12244b0a9" name="RPT8cf3da1113882600b9c4b8b12244b0a9">04f3da1113882600b9c4b8b12244b0aa</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

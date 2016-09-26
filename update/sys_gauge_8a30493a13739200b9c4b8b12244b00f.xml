@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_gauge">
+    <sys_gauge action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <aggregate/>
+        <attributes/>
+        <fieldname>status</fieldname>
+        <group_field>week</group_field>
+        <lower_limit/>
+        <name>WAR Item Counts</name>
+        <order/>
+        <other_threshold>-2</other_threshold>
+        <parent/>
+        <query/>
+        <report/>
+        <roles/>
+        <stack_field/>
+        <sys_class_name>sys_gauge</sys_class_name>
+        <sys_created_by>christopher.campbell</sys_created_by>
+        <sys_created_on>2016-06-07 17:20:10</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>8a30493a13739200b9c4b8b12244b00f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>WAR Item Counts</sys_name>
+        <sys_package display_value="WAR-CERTS" source="x_ngang_war_certs">93e129b013371200b9c4b8b12244b042</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="WAR-CERTS">93e129b013371200b9c4b8b12244b042</sys_scope>
+        <sys_update_name>sys_gauge_8a30493a13739200b9c4b8b12244b00f</sys_update_name>
+        <sys_updated_by>christopher.campbell</sys_updated_by>
+        <sys_updated_on>2016-06-07 17:23:04</sys_updated_on>
+        <tablename>x_ngang_war_certs_war_item</tablename>
+        <title/>
+        <type>counts</type>
+        <upper_limit/>
+        <url/>
+        <view/>
+    </sys_gauge>
+</record_update>

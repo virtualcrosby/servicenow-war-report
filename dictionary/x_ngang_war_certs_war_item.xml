@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="WAR Item" max_length="40" name="x_ngang_war_certs_war_item" sizeclass="5" type="collection">
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Category" max_length="32" name="catagory" reference="x_ngang_war_certs_war_item_catagory" type="reference"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Report" max_length="8000" name="report" type="translated_html"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" default="Work In Progress" label="Status" max_length="32" name="status" reference="x_ngang_war_certs_war_status" type="reference"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" default="javascript:javascript:gs.getUserID();" dynamic_default_value="a7bcb39113bf1200b9c4b8b12244b056" label="Submitter" max_length="32" name="submitter" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Submitting Office" max_length="32" name="submitter_office" reference="cmn_department" type="reference"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Target Office" max_length="32" name="target_office" reference="cmn_department" type="reference"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Title" max_length="50" name="title" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Classification" max_length="40" name="u_choice_1" type="string">
+            <choice>
+                <element label="S" sequence="0" value="S"/>
+                <element label="TS" sequence="1" value="TS"/>
+                <element label="SCI" sequence="2" value="SCI"/>
+            </choice>
+        </element>
+        <element label="Approve Submission Date" max_length="40" name="u_glide_date_time_2" type="glide_date_time"/>
+        <element label="Date Time 3" max_length="40" name="u_glide_date_time_3" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Diff" max_length="40" name="u_string_3" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="WAR" max_length="32" name="war" reference="x_ngang_war_certs_war" type="reference"/>
+        <element default="javascript:getNextObjNumberPadded();" display="true" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="WAR Item Number" max_length="12" name="war_item_number" type="string" use_dynamic_default="true"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" default="javascript:GlideDateTime().getWeekOfYearUTC()" dynamic_default_value="0cdb5c2d13bf1200b9c4b8b12244b0bf" label="Week" max_length="2" name="week" type="integer" use_dynamic_default="true"/>
+        <element attributes="format=none" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" default="javascript:GlideDateTime().getYearUTC()" dynamic_default_value="79871ca913bf1200b9c4b8b12244b0f3" label="Year" max_length="4" name="year" type="integer" use_dynamic_default="true"/>
+    </element>
+</database>

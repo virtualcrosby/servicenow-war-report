@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_gauge_counts">
+    <sys_gauge_counts action="INSERT_OR_UPDATE">
+        <gauge_id display_value="WAR Item Counts">8a30493a13739200b9c4b8b12244b00f</gauge_id>
+        <image/>
+        <name>WAR Item in progress</name>
+        <omit_line>false</omit_line>
+        <order/>
+        <override_style/>
+        <query table="x_ngang_war_certs_war_item">status=543f2b5d137f1200b9c4b8b12244b04e^EQ<item display_table="x_ngang_war_certs_war_status" display_value="Work In Progress" endquery="false" field="status" goto="false" newquery="false" operator="=" or="false" value="543f2b5d137f1200b9c4b8b12244b04e"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </query>
+        <script/>
+        <short_description/>
+        <sys_class_name>sys_gauge_counts</sys_class_name>
+        <sys_created_by>christopher.campbell</sys_created_by>
+        <sys_created_on>2016-06-07 17:23:48</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>9801417a13739200b9c4b8b12244b02d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>WAR Item in progress</sys_name>
+        <sys_package display_value="WAR-CERTS" source="x_ngang_war_certs">93e129b013371200b9c4b8b12244b042</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="WAR-CERTS">93e129b013371200b9c4b8b12244b042</sys_scope>
+        <sys_update_name>sys_gauge_counts_9801417a13739200b9c4b8b12244b02d</sys_update_name>
+        <sys_updated_by>christopher.campbell</sys_updated_by>
+        <sys_updated_on>2016-06-07 17:23:48</sys_updated_on>
+        <tablename>x_ngang_war_certs_war_item</tablename>
+        <use_script>false</use_script>
+    </sys_gauge_counts>
+</record_update>

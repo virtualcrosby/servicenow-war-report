@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="WAR" max_length="40" name="x_ngang_war_certs_war" sizeclass="5" type="collection">
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="3" choice_field="office_level" choice_table="x_ngang_war_certs_war" default="0" label="Office Level" max_length="40" name="office_level" type="integer">
+            <choice>
+                <element label="None" sequence="1" value="0"/>
+                <element label="TI" sequence="2" value="1"/>
+                <element label="TIB" sequence="3" value="2"/>
+                <element label="TIBC" sequence="4" value="3"/>
+            </choice>
+        </element>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" default="Work In Progress" label="Status" max_length="40" name="status" read_only="true" reference="x_ngang_war_certs_war_status" type="reference"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Submitting Office" max_length="32" name="submitting_office" reference="cmn_department" reference_qual="sys_created_on&gt;javascript:gs.dateGenerate('2014-01-01','23:59:59')^EQ" type="reference" use_reference_qualifier="advanced"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Target Office" max_length="32" name="target_office" reference="cmn_department" reference_qual="sys_created_on&gt;javascript:gs.dateGenerate('2014-01-01','23:59:59')^EQ" type="reference" use_reference_qualifier="advanced"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="WAR Number" max_length="12" name="war_number" read_only="true" type="string" use_dynamic_default="true"/>
+        <element default="javascript:GlideDateTime().getWeekOfYearUTC();" dynamic_default_value="0cdb5c2d13bf1200b9c4b8b12244b0bf" label="Week" max_length="2" name="week" type="integer" use_dynamic_default="true"/>
+        <element attributes="format=none" default="javascript:GlideDateTime().getYearUTC();" dynamic_default_value="79871ca913bf1200b9c4b8b12244b0f3" label="Year" max_length="4" name="year" type="integer" use_dynamic_default="true"/>
+    </element>
+</database>

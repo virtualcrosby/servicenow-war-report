@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_formatter">
+    <sys_ui_formatter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <formatter>process_flow.xml</formatter>
+        <name>Process Flow</name>
+        <sys_class_name>sys_ui_formatter</sys_class_name>
+        <sys_created_by>brian.crosby</sys_created_by>
+        <sys_created_on>2016-06-16 14:16:43</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>19ac66a9138c2600b9c4b8b12244b0cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Process Flow</sys_name>
+        <sys_package display_value="WAR-CERTS" source="x_ngang_war_certs">93e129b013371200b9c4b8b12244b042</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="WAR-CERTS">93e129b013371200b9c4b8b12244b042</sys_scope>
+        <sys_update_name>sys_ui_formatter_19ac66a9138c2600b9c4b8b12244b0cf</sys_update_name>
+        <sys_updated_by>brian.crosby</sys_updated_by>
+        <sys_updated_on>2016-06-16 14:16:43</sys_updated_on>
+        <table>x_ngang_war_certs_war</table>
+        <type>formatter</type>
+    </sys_ui_formatter>
+</record_update>
